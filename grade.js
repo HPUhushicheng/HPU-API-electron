@@ -4,8 +4,7 @@ var qs = require('qs');
 // 请求数据
 var data = qs.stringify({
    'biz_type_id': '1',
-   'kind': 'all',
-   'token': '089531f71e3e4bf7926c14c58a8642a4' 
+   'token': 'dc3dc28062444fea8959c58d5a44f83e' 
 });
 
 // 请求配置

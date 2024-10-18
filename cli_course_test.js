@@ -178,3 +178,10 @@ rl.question('请输入学号: ', (userCode) => {
         }
     });
 });
+
+module.exports = {
+    getNewToken,
+    getCourseSchedule,
+    processCourseData,
+    getCoursesForDay
+};

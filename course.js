@@ -125,3 +125,8 @@ async function exampleUsage() {
 
 
 exampleUsage();
+
+module.exports = {
+  getNewToken,
+  getCourseSchedule
+};
