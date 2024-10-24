@@ -1,0 +1,936 @@
+{
+    "code": "2024-2025-1",
+    "id": 184,
+    "lessons": [],
+    "semester_credits": "0.0",
+    "semester_gp": "0.0",
+    "semester_rank": "0/0",
+    "semester_view": "0"
+  },
+  {
+    "code": "2023-2024-2",
+    "id": 164,
+    "lessons": [
+      {
+        "code": "01100001M.001",
+        "course_code": "01100001M",       
+        "course_credit": "1.0",
+        "course_gp": "5.0",
+        "course_name": "安全与我们的生活",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "100",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 164940,
+        "passed": "true",
+        "score_text": "100"
+      },
+      {
+        "code": "14100003M.004",
+        "course_code": "14100003M",
+        "course_credit": "1.0",
+        "course_gp": "2.5",
+        "course_name": "大学英语听说译",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "中等",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 172044,
+        "passed": "true",
+        "score_text": "中等"
+      },
+      {
+        "code": "110000640.008",
+        "course_code": "110000640",
+        "course_credit": "3.5",
+        "course_gp": "2.1",
+        "course_name": "概率论与数理统计",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "71",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 166137,
+        "passed": "true",
+        "score_text": "71"
+      },
+      {
+        "code": "12100014M.002",
+        "course_code": "12100014M",
+        "course_credit": "1.5",
+        "course_gp": "3.3",
+        "course_name": "当代世界经济与政治",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "83",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 166633,
+        "passed": "true",
+        "score_text": "83"
+      },
+      {
+        "code": "070130021.006",
+        "course_code": "070130021",
+        "course_credit": "1.0",
+        "course_gp": "1.5",
+        "course_name": "房屋建筑学课程设计",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "65",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 168666,
+        "passed": "true",
+        "score_text": "65"
+      },
+      {
+        "code": "140001320.008",
+        "course_code": "140001320",
+        "course_credit": "2.0",
+        "course_gp": "2.1",
+        "course_name": "大学英语b-4",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "71",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 165119,
+        "passed": "true",
+        "score_text": "71"
+      },
+      {
+        "code": "011023090.001",
+        "course_code": "011023090",
+        "course_credit": "3.0",
+        "course_gp": "1.9",
+        "course_name": "流体力学与流体机械",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "69",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 164801,
+        "passed": "true",
+        "score_text": "69"
+      },
+      {
+        "code": "070130010.001",
+        "course_code": "070130010",
+        "course_credit": "3.0",
+        "course_gp": "3.1",
+        "course_name": "房屋建筑学",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "81",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 166694,
+        "passed": "true",
+        "score_text": "81"
+      },
+      {
+        "code": "010022000.002",
+        "course_code": "010022000",
+        "course_credit": "3.0",
+        "course_gp": "2.3",
+        "course_name": "工程热力学与传热学（双语）",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "73",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 171600,
+        "passed": "true",
+        "score_text": "73"
+      },
+      {
+        "code": "19100003M.034",
+        "course_code": "19100003M",
+        "course_credit": "1.0",
+        "course_gp": "0.0",
+        "course_name": "国家安全教育",
+        "exam_grades": [
+          {
+            "exam_status": "旷缺",
+            "passed": "false",
+            "score_text": "0",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 172978,
+        "passed": "false",
+        "score_text": "0"
+      },
+      {
+        "code": "120000280.018",
+        "course_code": "120000280",
+        "course_credit": "3.0",
+        "course_gp": "2.2",
+        "course_name": "中国近现代史纲要",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "72",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 166217,
+        "passed": "true",
+        "score_text": "72"
+      },
+      {
+        "code": "06100004M.001",
+        "course_code": "06100004M",
+        "course_credit": "1.0",
+        "course_gp": "5.0",
+        "course_name": "材料导论：生活中的材料学",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "100",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 165782,
+        "passed": "true",
+        "score_text": "100"
+      },
+      {
+        "code": "150000290.209",
+        "course_code": "150000290",
+        "course_credit": "1.0",
+        "course_gp": "3.4",
+        "course_name": "体育与健康4",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "84",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 172380,
+        "passed": "true",
+        "score_text": "84"
+      }
+    ],
+    "semester_credits": "24.0",
+    "semester_gp": "2.5",
+    "semester_rank": "0/0",
+    "semester_view": "1"
+  },
+  {
+    "code": "2023-2024-1",
+    "id": 144,
+    "lessons": [
+      {
+        "code": "120000330.023",
+        "course_code": "120000330",
+        "course_credit": "3.0",
+        "course_gp": "2.5",
+        "course_name": "马克思主义基本原理",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "75",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 157762,
+        "passed": "true",
+        "score_text": "75"
+      },
+      {
+        "code": "161000071.006",
+        "course_code": "161000071",
+        "course_credit": "1.5",
+        "course_gp": "3.9",
+        "course_name": "音乐鉴赏",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "89",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 157857,
+        "passed": "true",
+        "score_text": "89"
+      },
+      {
+        "code": "140001310.049",
+        "course_code": "140001310",
+        "course_credit": "2.0",
+        "course_gp": "1.2",
+        "course_name": "大学英语b-3",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "62",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 157265,
+        "passed": "true",
+        "score_text": "62"
+      },
+      {
+        "code": "010023400.002",
+        "course_code": "010023400",
+        "course_credit": "2.0",
+        "course_gp": "3.2",
+        "course_name": "Auto CAD 建筑绘图",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "82",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 159512,
+        "passed": "true",
+        "score_text": "82"
+      },
+      {
+        "code": "17100010M.011",
+        "course_code": "17100010M",
+        "course_credit": "1.0",
+        "course_gp": "5.0",
+        "course_name": "美术鉴赏",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "100",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 157811,
+        "passed": "true",
+        "score_text": "100"
+      },
+      {
+        "code": "070000190.007",
+        "course_code": "070000190",
+        "course_credit": "3.5",
+        "course_gp": "3.0",
+        "course_name": "工程力学b",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "80",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 157318,
+        "passed": "true",
+        "score_text": "80"
+      },
+      {
+        "code": "010022031.001",
+        "course_code": "010022031",
+        "course_credit": "1.0",
+        "course_gp": "4.1",
+        "course_name": "AutoCAD建筑绘图课程设计",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "91",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 154240,
+        "passed": "true",
+        "score_text": "91"
+      },
+      {
+        "code": "130000521.127",
+        "course_code": "130000521",
+        "course_credit": "1.0",
+        "course_gp": "4.5",
+        "course_name": "物理实验（二）",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "优秀",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 160708,
+        "passed": "true",
+        "score_text": "优秀"
+      },
+      {
+        "code": "530000141.004",
+        "course_code": "530000141",
+        "course_credit": "2.0",
+        "course_gp": "3.3",
+        "course_name": "工程基础实训与实践a",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "83",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 151178,
+        "passed": "true",
+        "score_text": "83"
+      },
+      {
+        "code": "130000520.011",
+        "course_code": "130000520",
+        "course_credit": "3.0",
+        "course_gp": "3.9",
+        "course_name": "大学物理（二）",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "89",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 156846,
+        "passed": "true",
+        "score_text": "89"
+      },
+      {
+        "code": "150000280.208",
+        "course_code": "150000280",
+        "course_credit": "1.0",
+        "course_gp": "2.8",
+        "course_name": "体育与健康3",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "78",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 159367,
+        "passed": "true",
+        "score_text": "78"
+      },
+      {
+        "code": "080000100.001",
+        "course_code": "080000100",
+        "course_credit": "4.0",
+        "course_gp": "3.1",
+        "course_name": "电工与电子技术c",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "81",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 157515,
+        "passed": "true",
+        "score_text": "81"
+      },
+      {
+        "code": "530000231.024",
+        "course_code": "530000231",
+        "course_credit": "2.0",
+        "course_gp": "4.7",
+        "course_name": "创新创业基础",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "97",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 158419,
+        "passed": "true",
+        "score_text": "97"
+      }
+    ],
+    "semester_credits": "27.0",
+    "semester_gp": "3.3",
+    "semester_rank": "0/0",
+    "semester_view": "1"
+  },
+  {
+    "code": "2022-2023-2",
+    "id": 124,
+    "lessons": [
+      {
+        "code": "601000041.012",
+        "course_code": "601000041",
+        "course_credit": "1.0",
+        "course_gp": "3.7",
+        "course_name": "大学生职业生涯与发展规划",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "87",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 143756,
+        "passed": "true",
+        "score_text": "87"
+      },
+      {
+        "code": "120000340.007",
+        "course_code": "120000340",
+        "course_credit": "3.0",
+        "course_gp": "2.0",
+        "course_name": "思想道德与法治",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "70",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 143560,
+        "passed": "true",
+        "score_text": "70"
+      },
+      {
+        "code": "171000121.004",
+        "course_code": "171000121",
+        "course_credit": "1.0",
+        "course_gp": "4.2",
+        "course_name": "影视鉴赏",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "92",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 144194,
+        "passed": "true",
+        "score_text": "92"
+      },
+      {
+        "code": "140001300.047",
+        "course_code": "140001300",
+        "course_credit": "2.0",
+        "course_gp": "2.0",
+        "course_name": "大学英语b-2",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "70",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 146087,
+        "passed": "true",
+        "score_text": "70"
+      },
+      {
+        "code": "110000460.004",
+        "course_code": "110000460",
+        "course_credit": "6.0",
+        "course_gp": "1.9",
+        "course_name": "高等数学b-2",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "69",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 143085,
+        "passed": "true",
+        "score_text": "69"
+      },
+      {
+        "code": "500000240.013",
+        "course_code": "500000240",
+        "course_credit": "3.0",
+        "course_gp": "1.8",
+        "course_name": "Python语言b",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "68",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 144808,
+        "passed": "true",
+        "score_text": "68"
+      },
+      {
+        "code": "091000051.005",
+        "course_code": "091000051",
+        "course_credit": "1.0",
+        "course_gp": "4.5",
+        "course_name": "人工智能应用与实践",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "95",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 145484,
+        "passed": "true",
+        "score_text": "95"
+      },
+      {
+        "code": "130000511.238",
+        "course_code": "130000511",
+        "course_credit": "1.0",
+        "course_gp": "1.5",
+        "course_name": "物理实验（一）",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "及格",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 149553,
+        "passed": "true",
+        "score_text": "及格"
+      },
+      {
+        "code": "150000270.207",
+        "course_code": "150000270",
+        "course_credit": "1.0",
+        "course_gp": "4.3",
+        "course_name": "体育与健康2",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "93",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 149870,
+        "passed": "true",
+        "score_text": "93"
+      },
+      {
+        "code": "130000510.048",
+        "course_code": "130000510",
+        "course_credit": "3.0",
+        "course_gp": "3.6",
+        "course_name": "大学物理（一）",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "86",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 146474,
+        "passed": "true",
+        "score_text": "86"
+      },
+      {
+        "code": "110000320.015",
+        "course_code": "110000320",
+        "course_credit": "2.5",
+        "course_gp": "2.5",
+        "course_name": "线性代数b",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "75",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 144841,
+        "passed": "true",
+        "score_text": "75"
+      }
+    ],
+    "semester_credits": "24.5",
+    "semester_gp": "2.53",
+    "semester_rank": "0/0",
+    "semester_view": "1"
+  },
+  {
+    "code": "2022-2023-1",
+    "id": 104,
+    "lessons": [
+      {
+        "code": "551000021.017",
+        "course_code": "551000021",
+        "course_credit": "2.0",
+        "course_gp": "4.7",
+        "course_name": "大学生心理健康教育",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "97",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 139302,
+        "passed": "true",
+        "score_text": "97"
+      },
+      {
+        "code": "520000011.017",
+        "course_code": "520000011",
+        "course_credit": "2.0",
+        "course_gp": "1.5",
+        "course_name": "军事技能训练（军训）",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "及格",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 138838,
+        "passed": "true",
+        "score_text": "及格"
+      },
+      {
+        "code": "040000450.106",
+        "course_code": "040000450",
+        "course_credit": "3.0",
+        "course_gp": "3.2",
+        "course_name": "画法几何与工程制图b",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "82",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 139232,
+        "passed": "true",
+        "score_text": "82"
+      },
+      {
+        "code": "520000030.064",
+        "course_code": "520000030",
+        "course_credit": "2.0",
+        "course_gp": "2.8",
+        "course_name": "军事理论",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "78",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 140012,
+        "passed": "true",
+        "score_text": "78"
+      },
+      {
+        "code": "110000680.018",
+        "course_code": "110000680",
+        "course_credit": "5.0",
+        "course_gp": "2.4",
+        "course_name": "高等数学b-1",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "74",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 139326,
+        "passed": "true",
+        "score_text": "74"
+      },
+      {
+        "code": "210000010.006",
+        "course_code": "210000010",
+        "course_credit": "2.0",
+        "course_gp": "3.4",
+        "course_name": "大学化学",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "84",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 139428,
+        "passed": "true",
+        "score_text": "84"
+      },
+      {
+        "code": "140001290.008",
+        "course_code": "140001290",
+        "course_credit": "2.0",
+        "course_gp": "1.5",
+        "course_name": "大学英语b-1",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "65",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 139103,
+        "passed": "true",
+        "score_text": "65"
+      },
+      {
+        "code": "120000171.078",
+        "course_code": "120000171",
+        "course_credit": "1.0",
+        "course_gp": "2.3",
+        "course_name": "形势与政策1",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "73",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 139911,
+        "passed": "true",
+        "score_text": "73"
+      },
+      {
+        "code": "040000011.012",
+        "course_code": "040000011",
+        "course_credit": "1.0",
+        "course_gp": "3.5",
+        "course_name": "画法几何与工程制图课程设计",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "85",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 140638,
+        "passed": "true",
+        "score_text": "85"
+      },
+      {
+        "code": "150000300.035",
+        "course_code": "150000300",
+        "course_credit": "1.0",
+        "course_gp": "3.7",
+        "course_name": "体育与健康1",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "87",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 140799,
+        "passed": "true",
+        "score_text": "87"
+      },
+      {
+        "code": "600000030.008",
+        "course_code": "600000030",
+        "course_credit": "1.0",
+        "course_gp": "5.0",
+        "course_name": "劳动教育理论",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "100",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 140692,
+        "passed": "true",
+        "score_text": "100"
+      },
+      {
+        "code": "500000250.027",
+        "course_code": "500000250",
+        "course_credit": "2.5",
+        "course_gp": "2.9",
+        "course_name": "大学计算机",
+        "exam_grades": [
+          {
+            "exam_status": "正常",
+            "passed": "true",
+            "score_text": "79",
+            "type": "总评成绩"
+          }
+        ],
+        "id": 139347,
+        "passed": "true",
+        "score_text": "79"
+      }
+    ],
+    "semester_credits": "24.5",
+    "semester_gp": "2.9",
+    "semester_rank": "0/0",
+    "semester_view": "1"
+  }
+],
+"total_credits": "100.0",
+"total_gp": "999.0",
+"total_rank": ""
+}

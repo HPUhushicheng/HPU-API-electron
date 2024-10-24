@@ -1,22 +1,31 @@
-var axios = require('axios');
-var qs = require('qs');
+const axios = require('axios');
+const qs = require('qs');
 
-// Base64编码原始密码的函数
+/**
+ * Base64编码原始密码的函数
+ * @param {string} password - 原始密码
+ * @returns {string} 编码后的密码
+ */
 function encodePassword(password) {
     return Buffer.from(password).toString('base64');
 }
 
-// 封装获取新token的函数
-async function getNewToken(rawPassword) {
+/**
+ * 获取新token的函数
+ * @param {string} rawPassword - 原始密码
+ * @param {string} user_code - 用户代码
+ * @returns {Promise<string|null>} 返回token或null
+ */
+async function getNewToken(rawPassword, user_code) {
     // 对原始密码进行Base64编码
-    var encodedPassword = encodePassword(rawPassword);
+    const encodedPassword = encodePassword(rawPassword);
 
-    var data = qs.stringify({
+    const data = qs.stringify({
         'passwd': encodedPassword,
-        'user_code': '312201030222'
+        'user_code': user_code // 使用传入的user_code
     });
 
-    var config = {
+    const config = {
         method: 'post',
         url: 'http://lgjw.hpu.edu.cn/app-ws/ws/app-service/login',
         headers: {
@@ -40,12 +49,16 @@ async function getNewToken(rawPassword) {
         const token = JSON.parse(decodedData).token; // 提取token字段
         return token; // 直接返回token
     } catch (error) {
-        console.error('获取新token失败:', error);
+        console.error('获取新token失败:', error.response ? error.response.data : error.message);
         return null;
     }
 }
 
-// 整理课程表数据的函数
+/**
+ * 整理课程表数据的函数
+ * @param {Array} courses - 原始课程数据
+ * @returns {Array} 处理后的课程数据
+ */
 function processCourseData(courses) {
     return courses.map(course => {
         // 提取所需的字段
@@ -53,7 +66,7 @@ function processCourseData(courses) {
         const date = course.date;
         const startTime = course.start_time;
         const endTime = course.end_time;
-        const address = course.rooms[0]?.address || "教师暂未查询到"; // 获取第一个房间的地址
+        const address = course.rooms && course.rooms.length > 0 ? course.rooms[0].address : "教师暂未查询到"; // 获取第一个房间的地址
 
         return {
             courseName,
@@ -65,16 +78,31 @@ function processCourseData(courses) {
     });
 }
 
-// 获取课程表数据的函数
+/**
+ * 获取课程表数据的函数
+ * @param {string} token - 用户token
+ * @returns {Promise<Array>} 返回课程列表
+ */
 async function getCourseSchedule(token) {
-    var data = qs.stringify({
+    const today = new Date();
+    const dayOfWeek = today.getDay(); // 获取今天是周几，周日为0
+    const start = new Date(today);
+    start.setDate(today.getDate() - (dayOfWeek === 0 ? 6 : dayOfWeek - 1)); // 计算周一的日期
+    const end = new Date(start);
+    end.setDate(start.getDate() + 6); // 计算周日的日期
+
+    // 格式化日期为YYYY-MM-DD
+    const startDate = start.toISOString().split('T')[0];
+    const endDate = end.toISOString().split('T')[0];
+
+    const data = qs.stringify({
         'biz_type_id': '1',
-        'end_date': '2024-10-28',
+        'end_date': endDate,
         'semester_id': '184',
-        'start_date': '2024-10-21'
+        'start_date': startDate
     });
 
-    var config = {
+    const config = {
         method: 'post',
         url: 'http://lgjw.hpu.edu.cn/app-ws/ws/app-service/student/course/schedule/get-course-tables',
         headers: {
@@ -96,37 +124,15 @@ async function getCourseSchedule(token) {
         const response = await axios(config);
         const businessData = response.data.business_data;
         const decodedData = Buffer.from(businessData, 'base64').toString('utf8');
-        //console.log('解码输出的business_data:', decodedData);
         const courseList = JSON.parse(decodedData); // 解析JSON数据
-        return courseList; // 返回课程列表
+        return processCourseData(courseList); // 返回处理后的课程列表
     } catch (error) {
-        console.error('获取课程表失败:', error);
+        console.error('获取课程表失败:', error.response ? error.response.data : error.message);
         return [];
     }
 }
 
-// 示例使用
-async function exampleUsage() {
-    const rawPassword = '020812'; // 原始密码
-    const token = await getNewToken(rawPassword);
-
-    if (token) {
-        console.log('获取到的新token:', token);
-        const courseData = await getCourseSchedule(token); // 获取课程表数据
-
-        // 处理课程表数据
-        const processedData = processCourseData(courseData);
-        console.log('整理后的课程数据:', processedData);
-    } else {
-        console.log('未能获取到token');
-    }
-    
-}
-
-
-exampleUsage();
-
 module.exports = {
-  getNewToken,
-  getCourseSchedule
+    getNewToken,
+    getCourseSchedule
 };
